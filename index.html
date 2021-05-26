@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>HTML5</title>
+<style>
+html, body {
+ height: 100vh;
+ overflow: hidden;
+ background-color: #19181d;
+ margin:0px auto;
+ padding:0px;
+}
+
+#gif{
+  position:fixed;
+  z-index:1;
+  
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-71.8%);
+}
+#iphone{
+  position: fixed;
+
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.example-shadow-3 {
+    background: #19181d;
+    text-align: center;
+}
+  .sp {
+    background: #19181d;
+    display: inline-block;
+    width: 96vw;
+    height: 96vh;
+    margin-top: 1%;
+    margin-bottom:28%
+    -webkit-box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 1);
+    box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 1);
+}
+</style>
+</head>
+<body>
+  <div class="example-shadow-3">
+    <div class="sp"> 
+      <div class="wrapper">
+      <img id="iphone" src="iphone.svg" width=40%>
+      <img id="gif" src="final.gif" width=37.9%>
+    </div>
+  </div>
+</body>
+</html>
